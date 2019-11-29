@@ -1,0 +1,77 @@
+*{
+	margin: 6px
+
+
+}
+
+body {
+	font-family: 'Playfair Display', serif;
+	background : url(../img/bg.jpeg); 
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+.container {
+	width: 600px;
+    margin: 5% auto;
+}
+    .login-section {
+    	    background-color: #dea7b3;
+    		padding: 25px;
+
+
+    }  
+
+    .login-section img{    
+    	margin: 0px auto;
+    	width: 300px;
+    	display: block;
+}
+
+   .login-section h2{
+   	color: white;
+   	text-align: center;
+   	font-size: 38px;
+   	margin: 12px 0px;
+
+
+
+   } 
+
+
+    .form-control{
+    	width: 95%;
+    	height: 20px;
+    	padding: 5px;
+    	margin: 5px;
+
+
+
+
+    }
+   .btn {
+    margin: 0 auto;
+    display: block;
+    background-color: #ffffff;
+    text-decoration-color: white;
+    padding: 7px 74px;
+    border: none;
+    text-transform: uppercase;
+    text-decoration-style: solid;
+    transition: 0.8s ease-in-out;
+
+
+
+    }
+    .g-signin{
+    	color :blue;
+    }
+
+.btn:hover {
+  box-shadow: inset -1px 3px 7px 12px red;
+ 
+
+
+
+

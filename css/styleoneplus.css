@@ -1,0 +1,118 @@
+* {
+  margin: 0px;
+}
+
+body {
+  font-family: 'Playfair Display', serif;
+  background : url(../img/rn.jpeg); 
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  width: 600px;
+    margin: 5% auto;
+}
+.login-section {
+      background-color: #44a52b;
+      padding: 30px;
+
+
+    }  
+    .login-section img{    
+      margin: 0px auto;
+      width: 200px;
+      display: block;
+}
+
+   .login-section h2{
+    color: white;
+    text-align: center;
+    font-size: 38px;
+    margin: 12px 0px;
+
+
+
+   } 
+      .login-section h3{
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    margin: 12px 0px;
+
+
+
+   }
+   .form-control{
+      width: 95%;
+      height: 30px;
+      padding: 5px;
+      margin: 5px;
+      color: red;
+
+
+
+
+    }
+   .btn {
+       margin: 2px auto;
+       display: block;
+      background-color: green;
+      text-decoration-color: white;
+      padding: 8px 20px;
+      border: none;
+      text-transform: uppercase;
+      transition: 0.8s ease-in-out;
+      font-size: 25px;
+
+
+
+    }
+.btn:hover {
+  box-shadow: inset -1px 3px 7px 12px #ffffff;
+
+}
+label {
+  color: white;
+  font-size: 20px;
+  margin: 3px;
+}
+.checkbox {
+  margin: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

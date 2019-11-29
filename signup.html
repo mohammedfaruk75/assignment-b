@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign up</title>
+
+	<!..google font ..>
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900&display=swap" rel="stylesheet">
+
+
+
+<!..this is css code ..>
+
+	<link rel="stylesheet" type="text/css" href="css/styleoneplus.css">
+</head>
+
+		<div class="container">
+		<div class="login-section">
+			<img src="img/ca.png">
+
+			
+						<form>
+				<h2>Register Now</h2>
+				<h3>ITS FREE AND JUST FEW STEPS</h3>
+				<body>
+				<label for="fname">First Name</label>
+				<input type="fname" placeholder="First Name" class="form-control">
+				<label for="lname">Last Name</label>
+				<input type="lname" placeholder="Last Name" class="form-control">
+				<label for="email">Email Address</label>
+				<input type="email" placeholder=" Your email address" class="form-control">
+				<label for="User Name">User Id</label>
+				<input type="User Name" placeholder="Email Address/User Name" class="form-control">
+				<label for="Password">Password</label>
+				<input type="Password" placeholder="Type Password" class="form-control">
+				<label for="Password">Confirm Password</label>
+				<input type="Password" placeholder="Re-type Password" class="form-control">
+				<label for="bday">Date of birth</label><br>
+					
+					
+					<input type="date" name="bday" class="form-control"><br>
+		          <label for="gender">Gender</label><br>
+					<input type="gender" placeholder="Checked the box or write " name="male" class="form-control">
+				    <input type="radio" name="gender" value="male" checked> Male
+					<input type="radio" name="gender" value="female"> Female<br>
+
+		        <label for="phone">Phone Number</label>
+				<input type="Number" placeholder="Your working Phone Number" class="form-control">
+					<label for="Street Address">Present Address</label>
+					<input type="Street" placeholder="Present Address" class="form-control">
+		  			<label for="City">City</label>
+					<input type="City" placeholder="City" class="form-control">
+
+				  <label for="Country">Select Country</label><br>
+				  <select id="country" name="country" class="form-control">
+		          <option value="country">Select Country</option>
+		          <option value="bangladesh">Bangladesh</option>
+		          <option value="canada">Canada</option>
+		          <option value="china">China</option>
+		          <option value="india">India</option>
+		          <option value="japan">Japan</option>
+		          <option value="ksa">KSA</option>
+		          <option value="malaysia">Malaysia</option>
+                  <option value="unitedkingdom">UK</option>
+		          <option value="usa">USA</option><br><br>
+
+		      </form>
+		   
+
+<div>
+	<br>
+
+	<form action="#" onsubmit="if(document.getElementById('agree').checked) { return true; } else { alert('Please indicate that you have read and agree to the Terms and Conditions and Privacy Policy'); return false; }">
+
+<input type="checkbox" name="checkbox" value="check" id="agree" class="checkbox" />  I have read and agree to the Terms and Conditions and Privacy Policy , Data Policy and Cookie Policy. You may receive SMS notifications from us and can opt out at any time.
+
+
+</form>
+<input type="Submit" value="Create Account" class="btn">
+				<a href="index.html">Sign in Insted</a>
+			
+</div>
+</body>
+</html>
